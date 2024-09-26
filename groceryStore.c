@@ -2,15 +2,19 @@
 
 int main() {
     
-    float applePrice;
+    double applePrice = 1.49;
     int appleQuantity;
-    char appleLocation;
+    const char APPLELOCATION = 'F';
+
+    float appleReview;
     int appleReviewDisplay;
+
+    appleQuantity = 23;
+    appleReview = 82.5;
     
-
-
+    appleReviewDisplay = appleReview;
 
 // Put all your code above this and if you declare your variables using the given names and types there is no need to change any of the code below.
-printf("An apple costs: $%.2f, there are %d in inventory found in section: %c and your customers gave it an average review of %d%%!", applePrice, appleQuantity, appleLocation, appleReviewDisplay);
+printf("An apple costs: $%.2f, there are %d in inventory found in section: %c and your customers gave it an average review of %d%%!", applePrice, appleQuantity, APPLELOCATION, appleReviewDisplay);
 
 }
