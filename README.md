@@ -29,3 +29,4 @@ printf("An apple costs: $%.2f, there are %d in inventory found in section: %c an
 - Set the value of variables either at declaration or by assignment
 - Assign constant variables using the recommended syntax (caps)
 - Cast variables
+- Use arithmetic operators to calculate sales
