@@ -8,7 +8,7 @@
 ---
 
 ### Code
-Codecademt provides the starting code below:
+Codecademy provides the starting code below:
 
 ```
 #include <stdio.h>
